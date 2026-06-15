@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: red;
+    color: white;
+    overflow-x: hidden;
+}
+nav a{
+    text-decoration:none;
+    color: white;
+    margin: 10px;
+}
+nav a:hover{
+    color: #f59e0b;
+}
+header{
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header{
+    position:sticky;
+    top:0;
+    background:red;
+    z-index:1000;
+    padding:20px 50px;
+}
+.logo{
+    color:white;
+}
+.hero{
+    position: relative;
+    height:80vh;
+    padding:50px 80px;
+    justify-content: center;
+    display:flex;
+    align-items:center;
+    text-align: center;
+}
+.hero-content{
+    width:55%;
+    position:relative;
+    z-index:2;
+}
+.hero-bg{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:700px;
+    opacity:0.15;
+    z-index:1;
+}
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:25px;
+}
+.hero-content p{
+    font-size:30px;
+    line-height:1.5;
+}
+.hero-image img{
+    width:600px;
+    height:auto;
+}
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:white;
+    color:red;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:18px;
+}
+.btn:hover{
+    color:#f59e0b;
+}
+.bikes{
+    padding:80px 50px;
+    text-align:center;
+}
+.bike-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+.bike-card{
+    width:300px;
+    background:#111827;
+    border-radius:10px;
+    padding:20px;
+}
+.bike-card img{
+    width:100%;
+}
+.bike-card button{
+    margin-top:30px;
+    padding:15px 35px;
+    border:none;
+    border-radius:5px;
+    background:white;
+    color:red;
+    font-size:18px;
+    cursor:pointer; 
+}
+.bike-card button:hover{
+    color:#f59e0b;
+}   
+.bike-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+.bike-card img{
+    transition:0.3s;
+}
+.bike-card:hover img{
+    transform:scale(1.05);
+}  
+.products{
+    padding:80px 50px;
+    text-align:center;
+}
+.product-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+.product-card{
+    width:300px;
+    background:#111827;
+    border-radius:10px;
+    padding:20px;
+}
+.product-card button{
+    margin-top:30px;
+    padding:15px 35px;
+    border:none;
+    border-radius:5px;
+    background:white;
+    color:red;
+    font-size:18px;
+    cursor:pointer; 
+}
+.product-card button:hover{
+    color:#f59e0b;
+} 
+.product-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+.product-card img{
+    transition:0.3s;
+}
+.product-card:hover img{
+    transform:scale(1.05);
+}  
+.about{
+    position: relative;
+    height:80vh;
+    padding:50px 80px;
+    justify-content: center;
+    display:flex;
+    align-items:center;
+    text-align: center;
+}
+.about-content{
+    width:55%;
+    position:relative;
+    z-index:2;
+}
+.about-content h2{
+    font-size:60px;
+    margin-bottom:25px;
+}
+.about-content p{
+    font-size:30px;
+    line-height:1.5;
+    max-width:700px;
+}
