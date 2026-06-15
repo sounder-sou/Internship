@@ -1,0 +1,56 @@
+#  Royal Enfield Inspired Website
+
+A static website inspired by the Royal Enfield brand, built using HTML AND CSS.
+
+## Features
+
+- Responsive Navigation Bar
+- Hero Section
+- Motorcycles Showcase
+- Riding Gear & Accessories Section
+- About Section
+- Contact Section
+- Cart Section
+- Smooth Scrolling Navigation
+- Hover Effects and Animations
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Flexbox
+- CSS Transitions
+- CSS Transformations
+
+## Project Structure
+
+```
+├── index.html
+├── style.css
+└── Images/
+```
+
+## How to Run
+
+1. Download or clone the repository.
+2. Open `index.html` in a web browser.
+
+## Learning Outcomes
+
+Through this project, I practiced:
+
+- Semantic HTML
+- CSS Layouts using Flexbox
+- Navigation and Smooth Scrolling
+- Responsive Web Design
+
+## Future Improvements
+
+- Functional Shopping Cart
+- Mobile Responsive Menu
+- Product Search
+- Checkout Page
+
+## Author
+
+Sounder-Sou
